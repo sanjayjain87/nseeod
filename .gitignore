@@ -10,3 +10,5 @@ app.log*
 /Equity
 /Options
 /Futures
+.idea
+
