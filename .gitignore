@@ -11,4 +11,9 @@ app.log*
 /Options
 /Futures
 .idea
+.iml
+.ipr
+.iws
+.gradle
+build
 

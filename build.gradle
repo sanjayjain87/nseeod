@@ -1,0 +1,25 @@
+apply plugin : 'java'
+apply plugin: 'application'
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+version = '1.0'
+mainClassName = 'maingui.NseEOD'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.swinglabs.swingx', name: 'swingx-all', version: '1.6.5-1'
+
+}
+
+jar {
+	manifest {
+        attributes 'Implementation-Title': 'EndOfDay',
+                   'Implementation-Version': version
+	}
+}

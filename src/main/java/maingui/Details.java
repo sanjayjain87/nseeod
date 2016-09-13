@@ -160,11 +160,11 @@ public class Details extends JFrame {
             jButton = new JButton();
             jButton.setBounds(new Rectangle(14, 14, 124, 108));
             jButton.setMnemonic(KeyEvent.VK_UNDEFINED);
-            jButton.setPressedIcon(new ImageIcon(Details.class.getResource("/img/kelly-75.gif")));
-            jButton.setDisabledIcon(new ImageIcon(Details.class.getResource("/img/kelly-75.gif")));
-            jButton.setRolloverIcon(new ImageIcon(Details.class.getResource("/img/kelly-75.gif")));
+            jButton.setPressedIcon(new ImageIcon(Details.class.getResource("kelly-75.gif")));
+            jButton.setDisabledIcon(new ImageIcon(Details.class.getResource("kelly-75.gif")));
+            jButton.setRolloverIcon(new ImageIcon(Details.class.getResource("kelly-75.gif")));
             jButton.setEnabled(true);
-            jButton.setIcon(new ImageIcon(Details.class.getResource("/img/kelly-75.gif")));
+            jButton.setIcon(new ImageIcon(Details.class.getResource("kelly-75.gif")));
             jButton.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent e) {
                     try {

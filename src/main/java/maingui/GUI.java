@@ -187,10 +187,10 @@ public class GUI extends JFrame implements ValidateConnectionListener,
         if (jButtonDownload == null) {
             jButtonDownload = new JButton();
             jButtonDownload.setIcon(new ImageIcon(GUI.class
-                    .getResource("/img/Download_button.png")));
+                    .getResource("Download_button.png")));
             jButtonDownload.setMnemonic(KeyEvent.VK_UNDEFINED);
             jButtonDownload.setPressedIcon(new ImageIcon(GUI.class
-                    .getResource("/img/Download_MouseOver.png")));
+                    .getResource("Download_MouseOver.png")));
             jButtonDownload.setBounds(new Rectangle(533, 10, 101, 32));
             jButtonDownload.setText("");
             jButtonDownload.setFocusable(false);
