@@ -2,7 +2,7 @@
 /Temp/
 .project
 .classpath
-derby.log
+*.log
 /nsedb/
 app.log*
 /Currency_Futures
@@ -11,9 +11,9 @@ app.log*
 /Options
 /Futures
 .idea
-.iml
-.ipr
-.iws
+*.iml
+*.ipr
+*.iws
 .gradle
 build
 
