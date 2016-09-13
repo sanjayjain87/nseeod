@@ -16,4 +16,4 @@ app.log*
 *.iws
 .gradle
 build
-
+/temp

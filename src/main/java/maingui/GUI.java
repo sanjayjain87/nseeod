@@ -76,12 +76,12 @@ public class GUI extends JFrame implements ValidateConnectionListener,
         fromDate.setDate(CommonFunctions.getCurrentDateTime());
         toDate.setDate(CommonFunctions.getCurrentDateTime());
         getjLabelUpdate().setText("Checking for latest version");
-/*        if (new DBExecutor().checkForAnotherDBInstance()) {
+        if (new DBExecutor().checkForAnotherDBInstance()) {
             String message = "Another instance of NSE EOD Data Downloader is already running";
             new JOptionPane(message).createDialog("").setVisible(true);
             logger.log(message);
             System.exit(1);
-        } else*/ {
+        } else {
             new ValidateConnection(this);
             new CheckUpdates(this);
             new CheckNews(this);
